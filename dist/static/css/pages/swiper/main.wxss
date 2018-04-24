@@ -1,0 +1,11 @@
+@import "/static/css/vendor.wxss";
+
+swiper-item.data-v-23a3a9b5 {
+  height: 300rpx;
+  width: 1280rpx;
+}
+swiper-item image.data-v-23a3a9b5 {
+  height: 100%;
+  width: 100%;
+  float: left;
+}

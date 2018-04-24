@@ -1,0 +1,39 @@
+@import "/static/css/vendor.wxss";
+
+swiper-item {
+  height: 300rpx;
+  width: 1280rpx;
+}
+swiper-item image {
+  height: 100%;
+  width: 100%;
+  float: left;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.newest_list {
+  height: 1000rpx;
+}
+.newest_item {
+  height: 100rpx;
+  width: 100%;
+}
+.newest_item ._dt {
+  float: left;
+}
+.newest_item ._dt ._img {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.newest_item ._dd {
+  float: left;
+  line-height: 60rpx;
+}

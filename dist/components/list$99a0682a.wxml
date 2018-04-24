@@ -1,0 +1,12 @@
+<template name="list$99a0682a">
+  <view class="_div data-v-6b6b4138 newest_list clearfix">
+    <view class="_dl data-v-6b6b4138 newest_item" wx:key="index" key="{{index}}" wx:for="{{listitem}}" wx:for-index="index" wx:for-item="item1">
+      <view class="_dt data-v-6b6b4138">
+        <view url target="_blank" class="_a data-v-6b6b4138">
+          <image src="{{item1.img}}" alt class="_img data-v-6b6b4138"></image>
+        </view>
+      </view>
+      <view class="_dd data-v-6b6b4138">{{item1.userName}}</view>
+    </view>
+  </view>
+</template>

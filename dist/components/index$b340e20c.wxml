@@ -1,0 +1,12 @@
+<import src="swiper$296ba4f6" />
+<import src="list$99a0682a" />
+<template name="index$b340e20c">
+  <view class="_div data-v-2a0115e0">
+    <view class="_div data-v-2a0115e0">
+      <template data="{{...$root[$kk+'0'], $root}}" is="swiper$296ba4f6"></template>
+    </view>
+    <view class="_div data-v-2a0115e0">
+      <template data="{{...$root[$kk+'1'], $root}}" is="list$99a0682a"></template>
+    </view>
+  </view>
+</template>

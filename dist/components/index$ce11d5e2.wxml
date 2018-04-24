@@ -1,0 +1,11 @@
+<template name="index$ce11d5e2">
+  <view class="_div data-v-23a3a9b5">
+    <swiper indicator-dots="{{true}}" autoplay="{{true}}" interval="{{3000}}" duration="{{1000}}" circular="{{true}}" class="_swiper data-v-23a3a9b5">
+      <view wx:key="item" key="{{item}}" wx:for="{{imaUrls}}" wx:for-index="index" wx:for-item="item" class="_div data-v-23a3a9b5">
+        <swiper-item class="_swiper-item data-v-23a3a9b5">
+          <image src="{{item}}" alt class="_image data-v-23a3a9b5 slide-image"></image>
+        </swiper-item>
+      </view>
+    </swiper>
+  </view>
+</template>
