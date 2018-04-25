@@ -1,0 +1,8 @@
+<import src="list$99a0682a" />
+<template name="index$07977814">
+  <view class="_div data-v-0dc801a8">
+    <view class="_div data-v-0dc801a8">
+      <template data="{{...$root[$kk+'0'], $root}}" is="list$99a0682a"></template>
+    </view>
+  </view>
+</template>

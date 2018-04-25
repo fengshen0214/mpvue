@@ -1,0 +1,12 @@
+<template name="comlist$17f954e2">
+  <view class="_div data-v-6730c075">
+    <view class="_ul data-v-6730c075 newest_list">
+      <view class="_li data-v-6730c075 newest_item clearfix" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item1">
+        <view url target="_blank" class="_a data-v-6730c075">
+          <image src="{{item1.img}}" alt class="_img data-v-6730c075"></image>
+        </view>
+        <label class="_span data-v-6730c075">{{item1.userName}}</label>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,17 +1,15 @@
 <template>
   <div>
-    <div>
-      <sw :imaurls="imaUrls"></sw>
-    </div>
-    <div>
-      <list :listitem="listitem"></list>
-    </div>
+    <sw :imaurls="imaUrls"></sw>
+    <comlist :list="listitem"></comlist>
+    <scroll-view scroll-y='true' bindscrolltolower='lower'></scroll-view>
   </div>
 </template>
 
 <script>
   import sw from '@/components/swiper'
-  import list from '@/components/list'
+  import comlist from '@/components/comlist'
+
   export default {
     data () {
       return {
@@ -23,17 +21,25 @@
         ],
         listitem: [
           {
-            img: '../../static/images/img5.jpeg',
-            userName: '鹿晗'
+            img: '../../static/images/img5.jpg',
+            userName: '1111'
           }, {
-            img: '../../static/images/img5.jpeg',
-            userName: '张艺兴'
+            img: '../../static/images/img5.jpg',
+            userName: '2222'
+          }, {
+            img: '../../static/images/img5.jpg',
+            userName: '3333'
           }
         ]
       }
     },
+    methods () {
+      
+    },
     components: {
-      sw, list
+      sw,
+      comlist
     }
   }
 </script>
+

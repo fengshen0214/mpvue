@@ -21,19 +21,26 @@ swiper-item image {
   height: 1000rpx;
 }
 .newest_item {
-  height: 100rpx;
+  height: 400rpx;
   width: 100%;
+  border-bottom: solid 2rpx #ccc;
 }
-.newest_item ._dt {
+.newest_item ._a {
   float: left;
+  display: inline-block;
+  width: 50%;
 }
-.newest_item ._dt ._img {
-  width: 60rpx;
-  height: 60rpx;
+.newest_item ._a ._img {
+  margin: 100rpx 0 100rpx 20rpx;
+  width: 200rpx;
+  height: 200rpx;
   border-radius: 50%;
   overflow: hidden;
-}
-.newest_item ._dd {
   float: left;
-  line-height: 60rpx;
+}
+.newest_item ._span {
+  display: inline-block;
+  float: left;
+  line-height: 400rpx;
+  padding-left: 40rpx;
 }
