@@ -1,0 +1,5 @@
+<template name="index$c4c7b6e0">
+  <movable-area style="height: 200px; width: 200px; background: #ffcbc5;" class="_movable-area data-v-bb2d07b2">
+    <movable-view style="height: 50px; width: 50px; background: #ff907f;" x="{{0}}" y="{{0}}" direction="all" class="_movable-view data-v-bb2d07b2"></movable-view>
+  </movable-area>
+</template>

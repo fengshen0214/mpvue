@@ -1,10 +1,12 @@
 {
   "pages": [
-    "pages/demo/main",
-    "pages/counter/main",
     "pages/index/main",
+    "pages/counter/main",
+    "pages/demo/main",
     "pages/logs/main",
-    "pages/swiper/main"
+    "pages/movable/main",
+    "pages/swiper/main",
+    "pages/video/main"
   ],
   "window": {
     "backgroundTextStyle": "light",

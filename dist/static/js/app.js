@@ -1,6 +1,60 @@
-global.webpackJsonp([6],{
+global.webpackJsonp([7],{
 
-/***/ 17:
+/***/ 11:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App__ = __webpack_require__(3);
+
+
+
+__WEBPACK_IMPORTED_MODULE_0_vue___default.a.config.productionTip = false;
+__WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */].mpType = 'app';
+
+var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */]);
+app.$mount();
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  // 这个字段走 app.json
+  config: {
+    // 页面前带有 ^ 符号的，会被编译成首页，其他页面可以选填，我们会自动把 webpack entry 里面的入口页面加进去
+    pages: ['^pages/index/main', 'pages/logs/main', 'pages/demo/main', 'pages/swiper/main', 'pages/movable/main'],
+    window: {
+      backgroundTextStyle: 'light',
+      navigationBarBackgroundColor: '#fff',
+      navigationBarTitleText: 'WeChat',
+      navigationBarTextStyle: 'black'
+    },
+    tabBar: {
+      color: '#a9b7b7',
+      selectedColor: '#1296db',
+      borderStyle: 'white',
+      list: [{
+        pagePath: 'pages/index/main',
+        text: 'index1',
+        iconPath: 'static/images/home.png',
+        selectedIconPath: 'static/images/home_select.png'
+      }, {
+        pagePath: 'pages/logs/main',
+        text: 'logs',
+        iconPath: 'static/images/up.png',
+        selectedIconPath: 'static/images/up_select.png'
+      }, {
+        pagePath: 'pages/swiper/main',
+        text: 'swiper',
+        iconPath: 'static/images/down.png',
+        selectedIconPath: 'static/images/down_select.png'
+      }]
+    }
+  }
+});
+
+/***/ }),
+
+/***/ 21:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -18,22 +72,15 @@ global.webpackJsonp([6],{
 
 /***/ }),
 
-/***/ 29:
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 3:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(17);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_mpvue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(21);
 var disposed = false
 function injectStyle (ssrContext) {
   if (disposed) return
-  __webpack_require__(29)
+  __webpack_require__(36)
 }
 var normalizeComponent = __webpack_require__(1)
 /* script */
@@ -77,59 +124,12 @@ if (false) {(function () {
 
 /***/ }),
 
-/***/ 9:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ 36:
+/***/ (function(module, exports) {
 
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__App__ = __webpack_require__(3);
-
-
-
-__WEBPACK_IMPORTED_MODULE_0_vue___default.a.config.productionTip = false;
-__WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */].mpType = 'app';
-
-var app = new __WEBPACK_IMPORTED_MODULE_0_vue___default.a(__WEBPACK_IMPORTED_MODULE_1__App__["a" /* default */]);
-app.$mount();
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  // 这个字段走 app.json
-  config: {
-    // 页面前带有 ^ 符号的，会被编译成首页，其他页面可以选填，我们会自动把 webpack entry 里面的入口页面加进去
-    pages: ['pages/logs/main', '^pages/demo/main', 'pages/swiper/main'],
-    window: {
-      backgroundTextStyle: 'light',
-      navigationBarBackgroundColor: '#fff',
-      navigationBarTitleText: 'WeChat',
-      navigationBarTextStyle: 'black'
-    },
-    tabBar: {
-      color: '#a9b7b7',
-      selectedColor: '#1296db',
-      borderStyle: 'white',
-      list: [{
-        pagePath: 'pages/index/main',
-        text: 'index1',
-        iconPath: 'static/images/home.png',
-        selectedIconPath: 'static/images/home_select.png'
-      }, {
-        pagePath: 'pages/logs/main',
-        text: 'logs',
-        iconPath: 'static/images/up.png',
-        selectedIconPath: 'static/images/up_select.png'
-      }, {
-        pagePath: 'pages/swiper/main',
-        text: 'swiper',
-        iconPath: 'static/images/down.png',
-        selectedIconPath: 'static/images/down_select.png'
-      }]
-    }
-  }
-});
+// removed by extract-text-webpack-plugin
 
 /***/ })
 
-},[9]);
+},[11]);
 //# sourceMappingURL=app.js.map

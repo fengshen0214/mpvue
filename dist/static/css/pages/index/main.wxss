@@ -1,29 +1,29 @@
 @import "/static/css/vendor.wxss";
 
-.userinfo.data-v-0d53d50b {
+.userinfo {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.userinfo-avatar.data-v-0d53d50b {
+.userinfo-avatar {
   width: 128rpx;
   height: 128rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
-.userinfo-nickname.data-v-0d53d50b {
+.userinfo-nickname {
   color: #aaa;
 }
-.usermotto.data-v-0d53d50b {
+.usermotto {
   margin-top: 300rpx;
 }
-.form-control.data-v-0d53d50b {
+.form-control {
   display: block;
   padding: 0 24rpx;
   margin-bottom: 10rpx;
   border: 2rpx solid #ccc;
 }
-.counter.data-v-0d53d50b {
+.counter {
   display: inline-block;
   margin: 20rpx auto;
   padding: 10rpx 20rpx;

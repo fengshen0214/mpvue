@@ -1,0 +1,21 @@
+<template name="comlist$6a996f45">
+  <view class="_div data-v-6730c075">
+    <scroll-view scroll-y="true" style="height: 200px" class="_scroll-view data-v-6730c075">
+      <view class="_ul data-v-6730c075 newest_list1">
+        <view class="_li data-v-6730c075 newest_item clearfix" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+          <view url target="_blank" class="_a data-v-6730c075">
+            <image src="{{item.img}}" alt class="_img data-v-6730c075"></image>
+          </view>
+          <label class="_span data-v-6730c075">{{item.userName}}</label>
+        </view>
+      </view>
+    </scroll-view>
+    <scroll-view scroll-X="true" class="_scroll-view data-v-6730c075 newest_list2Main" style>
+      <view class="_ul data-v-6730c075 newest_list2">
+        <view wx:key="index" key="{{index}}" wx:for="{{listdemo}}" wx:for-index="index" wx:for-item="itemd" class="_li data-v-6730c075">
+          <navigator url="{{itemd.url}}" class="_a data-v-6730c075">{{itemd.text}}</navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</template>

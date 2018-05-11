@@ -1,8 +1,7 @@
 <template>
   <div>
     <sw :imaurls="imaUrls"></sw>
-    <comlist :list="listitem"></comlist>
-    <scroll-view scroll-y='true' bindscrolltolower='lower'></scroll-view>
+    <comlist :list="listItem" :listdemo="listDemo"></comlist>
   </div>
 </template>
 
@@ -19,7 +18,7 @@
           '../../static/images/img3.jpeg',
           '../../static/images/img4.jpeg'
         ],
-        listitem: [
+        listItem: [
           {
             img: '../../static/images/img5.jpg',
             userName: '1111'
@@ -29,6 +28,18 @@
           }, {
             img: '../../static/images/img5.jpg',
             userName: '3333'
+          }
+        ],
+        listDemo: [
+          {
+            url: '../movable/main',
+            text: 'movable-view'
+          }, {
+            url: '../movable/main',
+            text: 'movable-view'
+          }, {
+            url: '../movable/main',
+            text: 'movable-view'
           }
         ]
       }
