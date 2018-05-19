@@ -3,15 +3,15 @@
     "pages/index/main",
     "pages/counter/main",
     "pages/demo/main",
+    "pages/hmac_mdf/main",
     "pages/logs/main",
     "pages/movable/main",
-    "pages/swiper/main",
-    "pages/video/main"
+    "pages/swiper/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "WeChatcc",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {

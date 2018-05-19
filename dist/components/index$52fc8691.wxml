@@ -1,0 +1,5 @@
+<template name="index$52fc8691">
+  <view id="app" class="_div data-v-2324ab54">
+    <button bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_button data-v-2324ab54">hmac_mdf5</button>
+  </view>
+</template>

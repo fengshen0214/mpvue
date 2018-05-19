@@ -18,3 +18,13 @@ export function formatTime (date) {
   return `${t1} ${t2}`
 }
 
+export function objKeySort(arys) {
+  let newkey = Object.keys(arys).sort()
+  let newObj = {}
+  for (var i = 0; i < newkey.length; i++) {
+    if (!!arys[newkey[i]]) {
+      newObj[newkey[i]] = arys[newkey[i]]
+    }
+  }
+  return newObj
+}

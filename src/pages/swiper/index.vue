@@ -9,7 +9,6 @@
     </swiper>
   </div>
 </template>
-
 <script>
   export default {
     data () {
@@ -31,7 +30,6 @@
     height: 150px;
     width: 640px;
   }
-
   swiper-item image {
     height: 100%;
     width: 100%;
